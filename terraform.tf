@@ -7,7 +7,7 @@ provider "aws" {
 
 
 resource "aws_instance" "myec2" {
-   ami = "ami-0cea098ed2ac54925 "
+   ami = ":ami-0cea098ed2ac54925"
    instance_type = "t2.micro"
    key_name = "mykeypair"
 
